@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD9F9F22415452E0075836A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD9F9F12415452E0075836A /* ContentViewModel.swift */; };
+		FBD9F9F5241549EB0075836A /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD9F9F4241549EB0075836A /* ContentModel.swift */; };
+		FBF33F1B2413B4BA000560AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F1A2413B4BA000560AF /* AppDelegate.swift */; };
+		FBF33F1D2413B4BA000560AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F1C2413B4BA000560AF /* SceneDelegate.swift */; };
+		FBF33F1F2413B4BA000560AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F1E2413B4BA000560AF /* ContentView.swift */; };
+		FBF33F212413B4BE000560AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF33F202413B4BE000560AF /* Assets.xcassets */; };
+		FBF33F242413B4BE000560AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF33F232413B4BE000560AF /* Preview Assets.xcassets */; };
+		FBF33F272413B4BE000560AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF33F252413B4BE000560AF /* LaunchScreen.storyboard */; };
+		FBF33F322413B4BE000560AF /* FPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F312413B4BE000560AF /* FPayTests.swift */; };
+		FBF33F3D2413B4BE000560AF /* FPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F3C2413B4BE000560AF /* FPayUITests.swift */; };
+		FBF33F4C2413B66E000560AF /* HC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F4B2413B66E000560AF /* HC3.swift */; };
+		FBF33F512413B8CF000560AF /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F502413B8CF000560AF /* ViewModifiers.swift */; };
+		FBF33F552413BB39000560AF /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FBF33F542413BB39000560AF /* KingfisherSwiftUI */; };
+		FBF33F572413BFDD000560AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F562413BFDD000560AF /* Extensions.swift */; };
+		FBF33F592413BFEF000560AF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F582413BFEF000560AF /* Color.swift */; };
+		FBF33F5B2413D574000560AF /* HC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F5A2413D574000560AF /* HC6.swift */; };
+		FBF33F5D2413DA63000560AF /* HC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F5C2413DA63000560AF /* HC5.swift */; };
+		FBF33F5F2413DCBE000560AF /* CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F5E2413DCBE000560AF /* CommonUI.swift */; };
+		FBF33F612413E1D0000560AF /* HC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F602413E1D0000560AF /* HC4.swift */; };
+		FBF33F632413EF2F000560AF /* HC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33F622413EF2F000560AF /* HC1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBF33F2E2413B4BE000560AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF33F0F2413B4BA000560AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF33F162413B4BA000560AF;
+			remoteInfo = FPay;
+		};
+		FBF33F392413B4BE000560AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF33F0F2413B4BA000560AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF33F162413B4BA000560AF;
+			remoteInfo = FPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBD9F9F12415452E0075836A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		FBD9F9F4241549EB0075836A /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		FBF33F172413B4BA000560AF /* FPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF33F1A2413B4BA000560AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF33F1C2413B4BA000560AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBF33F1E2413B4BA000560AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBF33F202413B4BE000560AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF33F232413B4BE000560AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBF33F262413B4BE000560AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF33F282413B4BE000560AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF33F2D2413B4BE000560AF /* FPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF33F312413B4BE000560AF /* FPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPayTests.swift; sourceTree = "<group>"; };
+		FBF33F332413B4BE000560AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF33F382413B4BE000560AF /* FPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF33F3C2413B4BE000560AF /* FPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPayUITests.swift; sourceTree = "<group>"; };
+		FBF33F3E2413B4BE000560AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF33F4B2413B66E000560AF /* HC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC3.swift; sourceTree = "<group>"; };
+		FBF33F502413B8CF000560AF /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		FBF33F562413BFDD000560AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FBF33F582413BFEF000560AF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FBF33F5A2413D574000560AF /* HC6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC6.swift; sourceTree = "<group>"; };
+		FBF33F5C2413DA63000560AF /* HC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC5.swift; sourceTree = "<group>"; };
+		FBF33F5E2413DCBE000560AF /* CommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUI.swift; sourceTree = "<group>"; };
+		FBF33F602413E1D0000560AF /* HC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC4.swift; sourceTree = "<group>"; };
+		FBF33F622413EF2F000560AF /* HC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF33F142413B4BA000560AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF33F552413BB39000560AF /* KingfisherSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF33F2A2413B4BE000560AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF33F352413B4BE000560AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD9F9F32415454A0075836A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F1A2413B4BA000560AF /* AppDelegate.swift */,
+				FBF33F1C2413B4BA000560AF /* SceneDelegate.swift */,
+				FBF33F282413B4BE000560AF /* Info.plist */,
+				FBF33F202413B4BE000560AF /* Assets.xcassets */,
+				FBF33F252413B4BE000560AF /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF33F0E2413B4BA000560AF = {
+			isa = PBXGroup;
+			children = (
+				FBF33F192413B4BA000560AF /* FPay */,
+				FBF33F302413B4BE000560AF /* FPayTests */,
+				FBF33F3B2413B4BE000560AF /* FPayUITests */,
+				FBF33F182413B4BA000560AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF33F182413B4BA000560AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F172413B4BA000560AF /* FPay.app */,
+				FBF33F2D2413B4BE000560AF /* FPayTests.xctest */,
+				FBF33F382413B4BE000560AF /* FPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF33F192413B4BA000560AF /* FPay */ = {
+			isa = PBXGroup;
+			children = (
+				FBD9F9F32415454A0075836A /* Supporting Files */,
+				FBF33F522413B8D8000560AF /* Utilities */,
+				FBF33F4A2413B641000560AF /* Cards */,
+				FBF33F1E2413B4BA000560AF /* ContentView.swift */,
+				FBD9F9F12415452E0075836A /* ContentViewModel.swift */,
+				FBD9F9F4241549EB0075836A /* ContentModel.swift */,
+				FBF33F222413B4BE000560AF /* Preview Content */,
+			);
+			path = FPay;
+			sourceTree = "<group>";
+		};
+		FBF33F222413B4BE000560AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F232413B4BE000560AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBF33F302413B4BE000560AF /* FPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F312413B4BE000560AF /* FPayTests.swift */,
+				FBF33F332413B4BE000560AF /* Info.plist */,
+			);
+			path = FPayTests;
+			sourceTree = "<group>";
+		};
+		FBF33F3B2413B4BE000560AF /* FPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F3C2413B4BE000560AF /* FPayUITests.swift */,
+				FBF33F3E2413B4BE000560AF /* Info.plist */,
+			);
+			path = FPayUITests;
+			sourceTree = "<group>";
+		};
+		FBF33F4A2413B641000560AF /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F4B2413B66E000560AF /* HC3.swift */,
+				FBF33F5A2413D574000560AF /* HC6.swift */,
+				FBF33F5C2413DA63000560AF /* HC5.swift */,
+				FBF33F602413E1D0000560AF /* HC4.swift */,
+				FBF33F622413EF2F000560AF /* HC1.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		FBF33F522413B8D8000560AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33F5E2413DCBE000560AF /* CommonUI.swift */,
+				FBF33F502413B8CF000560AF /* ViewModifiers.swift */,
+				FBF33F562413BFDD000560AF /* Extensions.swift */,
+				FBF33F582413BFEF000560AF /* Color.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF33F162413B4BA000560AF /* FPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF33F412413B4BE000560AF /* Build configuration list for PBXNativeTarget "FPay" */;
+			buildPhases = (
+				FBF33F132413B4BA000560AF /* Sources */,
+				FBF33F142413B4BA000560AF /* Frameworks */,
+				FBF33F152413B4BA000560AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPay;
+			packageProductDependencies = (
+				FBF33F542413BB39000560AF /* KingfisherSwiftUI */,
+			);
+			productName = FPay;
+			productReference = FBF33F172413B4BA000560AF /* FPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBF33F2C2413B4BE000560AF /* FPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF33F442413B4BE000560AF /* Build configuration list for PBXNativeTarget "FPayTests" */;
+			buildPhases = (
+				FBF33F292413B4BE000560AF /* Sources */,
+				FBF33F2A2413B4BE000560AF /* Frameworks */,
+				FBF33F2B2413B4BE000560AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF33F2F2413B4BE000560AF /* PBXTargetDependency */,
+			);
+			name = FPayTests;
+			productName = FPayTests;
+			productReference = FBF33F2D2413B4BE000560AF /* FPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBF33F372413B4BE000560AF /* FPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF33F472413B4BE000560AF /* Build configuration list for PBXNativeTarget "FPayUITests" */;
+			buildPhases = (
+				FBF33F342413B4BE000560AF /* Sources */,
+				FBF33F352413B4BE000560AF /* Frameworks */,
+				FBF33F362413B4BE000560AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF33F3A2413B4BE000560AF /* PBXTargetDependency */,
+			);
+			name = FPayUITests;
+			productName = FPayUITests;
+			productReference = FBF33F382413B4BE000560AF /* FPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF33F0F2413B4BA000560AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = VikranthKumar;
+				TargetAttributes = {
+					FBF33F162413B4BA000560AF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FBF33F2C2413B4BE000560AF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FBF33F162413B4BA000560AF;
+					};
+					FBF33F372413B4BE000560AF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FBF33F162413B4BA000560AF;
+					};
+				};
+			};
+			buildConfigurationList = FBF33F122413B4BA000560AF /* Build configuration list for PBXProject "FPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF33F0E2413B4BA000560AF;
+			packageReferences = (
+				FBF33F532413BB39000560AF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = FBF33F182413B4BA000560AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF33F162413B4BA000560AF /* FPay */,
+				FBF33F2C2413B4BE000560AF /* FPayTests */,
+				FBF33F372413B4BE000560AF /* FPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF33F152413B4BA000560AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF33F272413B4BE000560AF /* LaunchScreen.storyboard in Resources */,
+				FBF33F242413B4BE000560AF /* Preview Assets.xcassets in Resources */,
+				FBF33F212413B4BE000560AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF33F2B2413B4BE000560AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF33F362413B4BE000560AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF33F132413B4BA000560AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF33F1B2413B4BA000560AF /* AppDelegate.swift in Sources */,
+				FBD9F9F5241549EB0075836A /* ContentModel.swift in Sources */,
+				FBF33F5D2413DA63000560AF /* HC5.swift in Sources */,
+				FBF33F1D2413B4BA000560AF /* SceneDelegate.swift in Sources */,
+				FBF33F512413B8CF000560AF /* ViewModifiers.swift in Sources */,
+				FBF33F5B2413D574000560AF /* HC6.swift in Sources */,
+				FBF33F632413EF2F000560AF /* HC1.swift in Sources */,
+				FBF33F4C2413B66E000560AF /* HC3.swift in Sources */,
+				FBF33F612413E1D0000560AF /* HC4.swift in Sources */,
+				FBF33F592413BFEF000560AF /* Color.swift in Sources */,
+				FBD9F9F22415452E0075836A /* ContentViewModel.swift in Sources */,
+				FBF33F1F2413B4BA000560AF /* ContentView.swift in Sources */,
+				FBF33F5F2413DCBE000560AF /* CommonUI.swift in Sources */,
+				FBF33F572413BFDD000560AF /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF33F292413B4BE000560AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF33F322413B4BE000560AF /* FPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF33F342413B4BE000560AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF33F3D2413B4BE000560AF /* FPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBF33F2F2413B4BE000560AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF33F162413B4BA000560AF /* FPay */;
+			targetProxy = FBF33F2E2413B4BE000560AF /* PBXContainerItemProxy */;
+		};
+		FBF33F3A2413B4BE000560AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF33F162413B4BA000560AF /* FPay */;
+			targetProxy = FBF33F392413B4BE000560AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF33F252413B4BE000560AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF33F262413B4BE000560AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF33F3F2413B4BE000560AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF33F402413B4BE000560AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF33F422413B4BE000560AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FPay/Preview Content\"";
+				DEVELOPMENT_TEAM = 95TJ62T72S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FPay/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikranthKumar.FPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF33F432413B4BE000560AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FPay/Preview Content\"";
+				DEVELOPMENT_TEAM = 95TJ62T72S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FPay/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikranthKumar.FPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBF33F452413B4BE000560AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TJ62T72S;
+				INFOPLIST_FILE = FPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikranthKumar.FPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPay.app/FPay";
+			};
+			name = Debug;
+		};
+		FBF33F462413B4BE000560AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TJ62T72S;
+				INFOPLIST_FILE = FPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikranthKumar.FPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPay.app/FPay";
+			};
+			name = Release;
+		};
+		FBF33F482413B4BE000560AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TJ62T72S;
+				INFOPLIST_FILE = FPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikranthKumar.FPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FPay;
+			};
+			name = Debug;
+		};
+		FBF33F492413B4BE000560AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TJ62T72S;
+				INFOPLIST_FILE = FPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikranthKumar.FPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF33F122413B4BA000560AF /* Build configuration list for PBXProject "FPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF33F3F2413B4BE000560AF /* Debug */,
+				FBF33F402413B4BE000560AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF33F412413B4BE000560AF /* Build configuration list for PBXNativeTarget "FPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF33F422413B4BE000560AF /* Debug */,
+				FBF33F432413B4BE000560AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF33F442413B4BE000560AF /* Build configuration list for PBXNativeTarget "FPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF33F452413B4BE000560AF /* Debug */,
+				FBF33F462413B4BE000560AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF33F472413B4BE000560AF /* Build configuration list for PBXNativeTarget "FPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF33F482413B4BE000560AF /* Debug */,
+				FBF33F492413B4BE000560AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBF33F532413BB39000560AF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.13.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBF33F542413BB39000560AF /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBF33F532413BB39000560AF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FBF33F0F2413B4BA000560AF /* Project object */;
+}
